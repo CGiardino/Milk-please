@@ -17,7 +17,7 @@ module.exports = function configure(app) {
    ---------------------------------------------------------------------------*/
 
   //Web server port
-  app.set('port', 8080);
+  app.set('port', process.env.PORT || 5000);
 
   //Default controller, to be called on '/' requests
   app.set('defaultController', 'index');
