@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
     </list>
     <ignored path="milkplease.iws" />
@@ -52,7 +53,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="189" selection-end="189" vertical-scroll-proportion="0.1789976">
+            <state line="6" column="10" selection-start="221" selection-end="221" vertical-scroll-proportion="0.21479714">
               <folding />
             </state>
           </provider>
@@ -629,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="189" selection-end="189" vertical-scroll-proportion="0.1789976">
+        <state line="6" column="10" selection-start="221" selection-end="221" vertical-scroll-proportion="0.21479714">
           <folding />
         </state>
       </provider>
