@@ -1,9 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="">
+    <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="index updated">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/ico_like.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/linguettasocial.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/menu_cosa_offriamo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/comefunziona.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/comefunziona_pressato.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/comefunziona_pressato.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/cosa-offre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/cosa-offre_pressato.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/cosaoffre.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/menu.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/percheconviene.ai" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/percheconviene.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/percheconviene_pressato.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignetta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignette/punto_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignette/punto_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignette/punto_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignette/punto_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/css/milkstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/ajaxRequest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/jquery.touchslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/json.js" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\controllers\chisiamo.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\controllers\percheconviene.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\css\font\pacifico-fontfacekit.zip" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\css\style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\areamenu.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\areasocial.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\areasponsor.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\areasponsor.psd" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\bottoneinvito.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\bottoneinvitop.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\containerleft.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\content-bot.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\content-top.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\content.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\fascia patner.psd" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\footer.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\header.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\icosponsor\texture-foglio.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\index.dwt" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\4-b.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\areamenu.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\comefunziona.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\comefunzionapressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\cosaoffriamo.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\cosaoffriamo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\cosaoffriamopre.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\perche-Conviene-Pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\perche-conviene.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\texture foglio.psd" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\texturefoglio.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1 B.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1-B.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1-a.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1-a.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1-c.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\2 B.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\2-B.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\2-a.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\2-a.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\3 B.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\3-B.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\3-a.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\3-a.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\4 b.ai" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\4-b.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\views\chisiamo.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\views\comefunziona.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\views\percheconviene.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.eot" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.ttf" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.woff" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.eot" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.ttf" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.woff" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/areasocial.png" afterPath="$PROJECT_DIR$/app/public/img/areasocial.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/bottoneinvito.png" afterPath="$PROJECT_DIR$/app/public/img/bottoneinvito.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/bottoneinvitop.png" afterPath="$PROJECT_DIR$/app/public/img/bottoneinvitop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/icosociale/twi.png" afterPath="$PROJECT_DIR$/app/public/img/icosociale/twi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/icosociale/vimeo.png" afterPath="$PROJECT_DIR$/app/public/img/icosociale/vimeo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.svg" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/SIL Open Font License 1.1.txt" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/SIL Open Font License 1.1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/demo.html" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/stylesheet.css" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico SIL OFL Font License 1.1.txt" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico SIL OFL Font License 1.1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.svg" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/demo.html" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/stylesheet.css" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
+      <change type="MOVED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\Copse-Regular.ttf" afterPath="$PROJECT_DIR$/app/public/css/font/Copse-Regular.ttf" />
+      <change type="MOVED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\icosociale\pulsanti menu\cosa offriamo.ai" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/cosa offriamo.ai" />
     </list>
     <ignored path="milkplease.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,23 +118,14 @@
       <file leaf-file-name="agni.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/agni.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="70" selection-end="71" vertical-scroll-proportion="0.0">
+            <state line="9" column="3" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="14" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="ajaxRequest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/js/ajaxRequest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -50,64 +133,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="8" selection-start="225" selection-end="225" vertical-scroll-proportion="0.25059667">
+            <state line="327" column="25" selection-start="12384" selection-end="12384" vertical-scroll-proportion="-213.8077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comefunziona.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/comefunziona.html">
+      <file leaf-file-name="milkstyle.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/public/css/milkstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/mobile/mobile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chisiamo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/chisiamo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/mobile/mobile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="npm-debug.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/npm-debug.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="14" selection-start="641" selection-end="641" vertical-scroll-proportion="0.80618554">
               <folding />
             </state>
           </provider>
@@ -123,6 +161,11 @@
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -133,13 +176,14 @@
         <option value="$PROJECT_DIR$/app/controllers/mobile/mobile.js" />
         <option value="$PROJECT_DIR$/app/config/config.js" />
         <option value="$PROJECT_DIR$/app/views/index.html" />
+        <option value="$PROJECT_DIR$/app/public/css/milkstyle.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="x" value="858" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -172,69 +216,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -248,11 +250,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -262,29 +264,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -295,18 +279,58 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
+              <option name="myItemId" value="Milkplease_preproduction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Milkplease_preproduction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Milkplease_preproduction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -320,11 +344,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -338,33 +362,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="milkplease" />
+              <option name="myItemId" value="Milkplease_preproduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -387,24 +389,50 @@
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="faee3309-b6fa-493c-acb1-cbea8118a47c">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="a4efebb1-b159-4532-85ee-a01cc5d4c60b">
+        <serverdata />
+      </server>
+      <server id="adcb3f8b-3cb4-4130-a452-7e8f57d152be">
+        <serverdata />
+      </server>
+      <server id="c4ef1947-aa8a-47d5-8ae2-ba7cce8af3d2">
+        <serverdata />
+      </server>
+      <server id="de4ee570-b5d6-4abf-8f14-a6a7844db512">
+        <serverdata />
+      </server>
+      <server id="f2d328ee-eab5-424a-8be2-dc857074323b">
+        <serverdata />
+      </server>
+      <server id="fd95fa87-8277-4df9-94c3-b733ed401b36">
+        <serverdata />
       </server>
     </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/public" />
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\css" />
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette" />
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img" />
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsanti menu" />
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img" />
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\public" />
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\css" />
+      <recent name="D:\My_Work\Milkplease\Milkplease_preproduction\app\views" />
       <recent name="$PROJECT_DIR$/app/public" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -454,22 +482,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <frame x="858" y="0" width="683" height="728" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27071825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296501" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36801243" sideWeight="0.9601911" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -533,6 +562,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -565,49 +601,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npm-debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/chisiamo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="5" column="14" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/mobile/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comefunziona.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/agni.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="70" selection-end="71" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.4273743">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="14" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0">
+        <state line="42" column="14" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.5726257">
           <folding />
         </state>
       </provider>
@@ -621,14 +629,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/mobile/mobile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+        <state line="6" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.31384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/agni.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="3" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/ajaxRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="225" selection-end="225" vertical-scroll-proportion="0.25059667">
+        <state line="327" column="25" selection-start="12384" selection-end="12384" vertical-scroll-proportion="-213.8077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/css/milkstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="14" selection-start="641" selection-end="641" vertical-scroll-proportion="0.80618554">
           <folding />
         </state>
       </provider>

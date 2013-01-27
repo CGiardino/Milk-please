@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'PacificoRegular';
     src: url('Pacifico-webfont.eot');
-    src: url('Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('Pacifico-webfont.eot') format('embedded-opentype'),
          url('Pacifico-webfont.woff') format('woff'),
          url('Pacifico-webfont.ttf') format('truetype'),
          url('Pacifico-webfont.svg#PacificoRegular') format('svg');

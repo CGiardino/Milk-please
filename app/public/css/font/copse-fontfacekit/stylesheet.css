@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'CopseRegular';
     src: url('Copse-Regular-webfont.eot');
-    src: url('Copse-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('Copse-Regular-webfont.eot') format('embedded-opentype'),
          url('Copse-Regular-webfont.woff') format('woff'),
          url('Copse-Regular-webfont.ttf') format('truetype'),
          url('Copse-Regular-webfont.svg#CopseRegular') format('svg');
