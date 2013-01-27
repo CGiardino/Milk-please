@@ -1,89 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="index updated">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/ico_like.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/linguettasocial.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/menu_cosa_offriamo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/comefunziona.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/comefunziona_pressato.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/comefunziona_pressato.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/cosa-offre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/cosa-offre_pressato.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/cosaoffre.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/menu.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/percheconviene.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/percheconviene.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/percheconviene_pressato.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignetta.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignette/punto_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignette/punto_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignette/punto_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/img/vignette/punto_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/css/milkstyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/ajaxRequest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/jquery.touchslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/json.js" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\controllers\chisiamo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\controllers\percheconviene.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\css\font\pacifico-fontfacekit.zip" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\areamenu.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\areasocial.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\areasponsor.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\areasponsor.psd" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\bottoneinvito.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\bottoneinvitop.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\containerleft.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\content-bot.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\content-top.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\content.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\fascia patner.psd" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\footer.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\header.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\icosponsor\texture-foglio.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\index.dwt" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\4-b.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\areamenu.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\comefunziona.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\comefunzionapressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\cosaoffriamo.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\cosaoffriamo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\cosaoffriamopre.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\perche-Conviene-Pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\pulsantimenu\perche-conviene.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\texture foglio.psd" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\texturefoglio.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1 B.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1-B.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1-a.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1-a.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\1-c.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\2 B.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\2-B.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\2-a.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\2-a.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\3 B.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\3-B.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\3-a.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\3-a.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\4 b.ai" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\vignette\4-b.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\views\chisiamo.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\views\comefunziona.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\views\percheconviene.html" afterPath="" />
+    <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.eot" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.ttf" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.woff" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.eot" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.ttf" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.woff" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/areasocial.png" afterPath="$PROJECT_DIR$/app/public/img/areasocial.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/bottoneinvito.png" afterPath="$PROJECT_DIR$/app/public/img/bottoneinvito.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/bottoneinvitop.png" afterPath="$PROJECT_DIR$/app/public/img/bottoneinvitop.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/icosociale/twi.png" afterPath="$PROJECT_DIR$/app/public/img/icosociale/twi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/img/icosociale/vimeo.png" afterPath="$PROJECT_DIR$/app/public/img/icosociale/vimeo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.svg" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/Copse-Regular-webfont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/SIL Open Font License 1.1.txt" afterPath="$PROJECT_DIR$/app/public/css/font/copse-fontfacekit/SIL Open Font License 1.1.txt" />
@@ -93,9 +17,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.svg" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/Pacifico-webfont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/demo.html" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/demo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/font/pacifico/stylesheet.css" afterPath="$PROJECT_DIR$/app/public/css/font/pacifico/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/milkstyle.css" afterPath="$PROJECT_DIR$/app/public/css/milkstyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
-      <change type="MOVED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\Copse-Regular.ttf" afterPath="$PROJECT_DIR$/app/public/css/font/Copse-Regular.ttf" />
-      <change type="MOVED" beforePath="D:\My_Work\Milkplease\Milkplease_preproduction\app\public\img\icosociale\pulsanti menu\cosa offriamo.ai" afterPath="$PROJECT_DIR$/app/public/img/pulsanti_menu/cosa offriamo.ai" />
     </list>
     <ignored path="milkplease.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,19 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="327" column="25" selection-start="12384" selection-end="12384" vertical-scroll-proportion="-213.8077">
+            <state line="331" column="21" selection-start="14338" selection-end="14338" vertical-scroll-proportion="0.9106754">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="milkstyle.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="milkstyle.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/public/css/milkstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="14" selection-start="641" selection-end="641" vertical-scroll-proportion="0.80618554">
+            <state line="76" column="21" selection-start="1737" selection-end="1753" vertical-scroll-proportion="66.36">
               <folding />
             </state>
           </provider>
@@ -163,7 +86,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="new_style" />
       </map>
     </option>
   </component>
@@ -175,13 +98,13 @@
         <option value="$PROJECT_DIR$/app/views/mobile/mobile.html" />
         <option value="$PROJECT_DIR$/app/controllers/mobile/mobile.js" />
         <option value="$PROJECT_DIR$/app/config/config.js" />
-        <option value="$PROJECT_DIR$/app/views/index.html" />
         <option value="$PROJECT_DIR$/app/public/css/milkstyle.css" />
+        <option value="$PROJECT_DIR$/app/views/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="858" />
+    <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -478,18 +401,23 @@
       <created>1358954744597</created>
       <updated>1358954744597</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Nuova versione della land page!!">
+      <created>1359327127961</created>
+      <updated>1359327127961</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="858" y="0" width="683" height="728" extended-state="0" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27071825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296501" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36801243" sideWeight="0.9601911" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36801243" sideWeight="0.9601911" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -499,7 +427,6 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -540,7 +467,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="index updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuova versione della land page!!" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -557,6 +484,7 @@
     <MESSAGE value="add mobile.html" />
     <MESSAGE value="to window.location" />
     <MESSAGE value="index updated" />
+    <MESSAGE value="Nuova versione della land page!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -648,16 +576,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.html">
+    <entry file="file://$PROJECT_DIR$/app/public/css/milkstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="25" selection-start="12384" selection-end="12384" vertical-scroll-proportion="-213.8077">
+        <state line="76" column="21" selection-start="1737" selection-end="1753" vertical-scroll-proportion="66.36">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/css/milkstyle.css">
+    <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="641" selection-end="641" vertical-scroll-proportion="0.80618554">
+        <state line="331" column="21" selection-start="14338" selection-end="14338" vertical-scroll-proportion="0.9106754">
           <folding />
         </state>
       </provider>
