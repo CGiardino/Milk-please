@@ -7,7 +7,7 @@ lib-cov
 *.out
 *.pid
 *.gz
-
+workspace.xml
 pids
 logs
 results
