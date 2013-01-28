@@ -4,30 +4,7 @@
 
 	<title>MILK PLEASE</title>
 	<link href="public/css/milkstyle.css" rel="stylesheet" type="text/css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="public/js/jquery.touchslider.min.js"></script>
-    <script>
-        jQuery(function($) {
-            $(".touchslider").touchSlider({
-                container: this,
-                duration: 350, // the speed of the sliding animation in milliseconds
-                delay: 3000, // initial auto-scrolling delay for each loop
-                margin: 5, // borders size. The margin is set in pixels.
-                mouseTouch: true,
-                namespace: "touchslider",
-                next: ".touchslider-next", // jQuery object for the elements to which a "scroll forwards" action should be bound.
-                pagination: ".touchslider-nav-item",
-                currentClass: "touchslider-nav-item-current", // class name for current pagination item.
-                prev: ".touchslider-prev", // jQuery object for the elements to which a "scroll backwards" action should be bound.
-                autoplay: false, // whether to move from image to image automatically
-                viewport: ".touchslider-viewport"
-            });
-        });
-
-
-    </script>
-	<script type="text/javascript" src="public/js/json.js">
-	</script>
+	<script type="text/javascript" src="public/js/json.js"></script>
 	<script type="text/javascript">
 	function loadLikes()
 	{
@@ -51,6 +28,15 @@
         var head = document.getElementsByTagName('head').item(0);
 
         /**
+         * Recupero likes of Twitter
+         * @type {Node}
+         */
+        videosUrl ="https://api.twitter.com/1/followers/ids.json?cursor=-1&screen_name=milk_please&callback=setTwitterLikes";
+        videosJs = document.createElement('script');
+        videosJs.setAttribute('type', 'text/javascript');
+        videosJs.setAttribute('src', videosUrl);
+        head.appendChild(videosJs);
+        /**
          * Recupero likes of Facebook
          * @type {Node}
          */
@@ -71,15 +57,6 @@
         videosJs.setAttribute('src', videosUrl);
         head.appendChild(videosJs);
         setVimeoLikes({"likes":"4"})
-        /**
-         * Recupero likes of Twitter
-         * @type {Node}
-         */
-        videosUrl ="https://api.twitter.com/1/followers/ids.json?cursor=-1&screen_name=milk_please&callback=setTwitterLikes";
-        videosJs = document.createElement('script');
-        videosJs.setAttribute('type', 'text/javascript');
-        videosJs.setAttribute('src', videosUrl);
-        head.appendChild(videosJs);
 
 
 
@@ -98,34 +75,33 @@
     {
         document.getElementById("like_facebook").innerHTML =  info[0].like_count;
     }
+
 	</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- TODO  sistema menu a scroll -->
 	<script type="text/javascript">
+        $(document).ready(function(){
 
-		var paginaPrecedente = "";
-		function hoverButton(img)
-		{
-			var path= "public/img/pulsantimenu/";
+            $('#test').click(function(){
+                var el = $(this).attr('href');
+                var elWrapped = $(el);
 
-            //Estrapolo il nome dell'immagine da cui è stata invocata la funziona
-			var src = document.getElementById(img).src;
-            var immagineVecchia = src.substring(src.lastIndexOf("/")+1, src.lastIndexOf("."));
+                scrollToDiv(elWrapped,40);
 
-            //verifico che la pagina precedente sia diversa da quella attuale: se sono su una pagina lascio l'hover sempre
-            if(paginaPrecedente != img)
-			{
+                return false;
+            });
 
-                //Per il caso di immagine vecchia == img metto hover img altrimenti la rimetto normale
-				if(immagineVecchia == img)
-				{
-					document.getElementById(img).src = path+"hover_"+img+".png";
-				}
-				else
-				{
-					document.getElementById(img).src = path+img+".png";
-				}
-			}
-			return true;
-		}
+            function scrollToDiv(element,navheight){
+                var offset = element.offset();
+                var offsetTop = offset.top;
+                var totalScroll = offsetTop-navheight;
+
+                $('body,html').animate({
+                    scrollTop: totalScroll
+                }, 500);
+            }
+        });
 	</script>
 </head>
 
@@ -141,11 +117,12 @@
         2-OVVIAMENTE C'è DA COLLEGARE I TASTI
 
         -->
+        <!--
+        <a href="#cosaoffre" ><img src="public/img/pulsanti_menu/cosa-offre.png" /></a><br>
+        <a href="#comefunziona"><img src="public/img/pulsanti_menu/comefunziona.png"/></a><br>
+        <a id="test" href="#percheconviene"> cacca</a><img src="public/img/pulsanti_menu/percheconviene.png" />
 
-        <img src="public/img/pulsanti_menu/cosa-offre.png" /><br>
-        <img src="public/img/pulsanti_menu/comefunziona.png"/><br>
-        <img src="public/img/pulsanti_menu/percheconviene.png" />
-
+        -->
     </div>
 <!--FINE MENU-->
 <center>
@@ -196,7 +173,7 @@
                     <tr>
                         <td>
                             <!--Inizio Pagina1-->
-
+                            <p id="cosaoffre"></p>
                             <table width="900" height="400" align="center" cellpadding="30" >
                                 <tr valign="top">
                                     <td width="50%" align="center" valign="top" >
@@ -216,6 +193,7 @@
 
                             <!--Inizio Pagina2-->
 
+                            <p id="comefunziona"></p>
                             <table width="900" align="center" >
 
                                 <tr>
@@ -251,6 +229,7 @@
 
                             <!--Inizio Pagina3-->
 
+                            <p id="percheconviene"></p>
                             <table width="900" border="0" cellpadding="30" align="left" >
                                 <tr>
                                     <td>
