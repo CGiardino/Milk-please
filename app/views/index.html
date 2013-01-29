@@ -79,8 +79,7 @@
             position: fixed;
             top: 0;
             visibility: visible;
-            background: rgba(0, 0, 0, 0.5)
-
+            background: rgba(0, 0, 0, 0.5);
         }
     </style>
     <script>
@@ -119,16 +118,27 @@
 </head>
 
 <body class="body" onLoad="loadLikes()">
-<table class="persist-area" height="110" cellpadding="30" width="100%">
+<table class="persist-area" height="110" align="center" cellpadding="30" width="100%">
 
-    <thead class="persist-header">
+    <thead class="persist-header" align="center" >
 
+    <th>
+        <h2><a href="#">Why</a></h2>
+    </th>
+    <th>
+        <h2><a href="#">How</a></h2>
+    </th>
+    <th>
+        <h2><a href="#">What</a></h2>
+    </th>
 
     <th><p class="payoff">Let's take shooping at your door step!</p>
     </th>
+
     <th>
         <h2><a href="#">Register</a></h2>
     </th>
+
     <th>
         <img src="public/img/icosociale/twi.png"/>
 
@@ -149,6 +159,8 @@
         <div id="like_vimeo" class="likes">
         </div>
     </th>
+
+
     </thead>
 
 </table>
@@ -248,8 +260,8 @@
 
                             <!--Inizio Pagina3-->
 
-                            <p id="percheconviene"></p>
-                            <table width="900" border="0" cellpadding="30" align="left">
+
+                            <table border="0" cellpadding="30" align="center">
                                 <tr>
                                     <td>
                                         <p class="titolofunziona"> Why is it convenient?
@@ -259,11 +271,11 @@
                                 </tr>
                             </table>
 
-                            <table width="900" border="0" align="center">
+                            <table align="center">
 
                                 <tr>
                                     <td width="50px">
-                                        <img align="left" src="public/img/vignette/punto_1.png"/>
+                                        <img src="public/img/vignette/punto_1.png"/>
                                     </td>
 
                                     <td valign="middle">
@@ -273,7 +285,7 @@
 
                                 <tr>
                                     <td width="50px">
-                                        <img align="left" src="public/img/vignette/punto_2.png"/>
+                                        <img src="public/img/vignette/punto_2.png"/>
                                     </td>
 
                                     <td valign="middle">
@@ -283,7 +295,7 @@
                                 </tr>
                                 <tr>
                                     <td width="50px">
-                                        <img align="left" src="public/img/vignette/punto_3.png"/>
+                                        <img src="public/img/vignette/punto_3.png"/>
                                     </td>
 
                                     <td valign="middle">
@@ -293,7 +305,7 @@
                                 </tr>
                                 <tr>
                                     <td width="50px">
-                                        <img align="left" src="public/img/vignette/punto_4.png"/>
+                                        <img src="public/img/vignette/punto_4.png"/>
                                     </td>
 
                                     <td valign="middle">
@@ -303,7 +315,7 @@
 
                                 </tr>
                                 <td width="50px">
-                                    <img align="left" src="public/img/vignette/punto_4.png"/>
+                                    <img src="public/img/vignette/punto_4.png"/>
                                 </td>
                                 <td valign="middle">
                                     <p class="testo_elenco">Last but not least Milkplease is a good way to get in touch
@@ -322,26 +334,32 @@
         </tr>
 
         <tr>
-            <td>
-                <!--Inizio FOOTER-->
-                <img calss="footer" src="public/img/footer.png" width="100%">
+            <table>
+                <tr>
 
+                    <!--Inizio FOOTER-->
+                    <img calss="footer" src="public/img/footer.png" width="100%">
+                </tr>
 
                 <!-- Area Sponsor -->
-                <img src="public/img/areasponsor.png" width="100%"><br>
+                <tr>
+                    <img src="public/img/areasponsor.png" width="100%"><br>
+                </tr>
+                <tr>
+                    <a class="testoinfo">
+                        If you decide to have more info about this app, write at:
+                        <a href="mailto:hello@milkplease.it">hello@milkplease.it
+                        </a>
+                    </a><br>
 
-                <a class="testoinfo">
-                    If you decide to have more info about this app, write at:<br>
-                    <a href="mailto:hello@milkplease.it">hello@milkplease.it
+                    <a class="testoinfo">Milkplease © 2013.<br>
                     </a>
-                </a>
-                <br>
-                <a class="testoinfo">Milkplease © 2013.<br>
-                </a>
-                <br>
+
+                </tr>
 
                 <!--FINE FOOTER-->
-            </td>
+
+            </table>
         </tr>
         </tbody>
     </table>
