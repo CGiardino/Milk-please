@@ -1,4 +1,7 @@
- a:link {
+table{
+    border-spacing: 0;
+}
+a:link {
      color: #FC622F;
      font-family: 'PacificoRegular';
      text-decoration: none;
@@ -37,16 +40,21 @@
     font-style: normal;
 
 }
-
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .body {
 	background-color:#66ccff;
 	background-repeat:repeat;
+    text-align: center;
+    margin: 0;
 }
 #areasocial {
 
     position: absolute;
     text-align: left;
-    margin-left:320px ;
+    margin-left:500px ;
     margin-top:50px;
 	height:90px;
 	width:650px;

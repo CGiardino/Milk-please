@@ -1,228 +1,247 @@
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
-	<title>MILK PLEASE</title>
-	<link href="public/css/milkstyle.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" src="public/js/json.js"></script>
-	<script type="text/javascript">
-	function loadLikes()
-	{
-        /**
-         * Alternativa FUNZIONANTE per Facebook's Likes.
-         * @type {*}
-         */
-       /** var json = getLikeFacebook();
-        var facebookData = JSON.parse(json);
-        document.getElementById("like_facebook").innerHTML =  facebookData[0].like_count+" <img src='index_file/img/ico_like.png' />";
-        */
-
-
-        /**
-         * Alternativa non funzionante, vimeo non accetta la request da 127.0.0.1 e da repository.no-ip.org
-         *
-         var json = getLikeVimeo();
-        var vimeoData = JSON.parse(json);
-        document.getElementById("like_vimeo").innerHTML =  vimeoData[0].stats_number_of_likes;
-        **/
-        var head = document.getElementsByTagName('head').item(0);
-
-        /**
-         * Recupero likes of Twitter
-         * @type {Node}
-         */
-        videosUrl ="https://api.twitter.com/1/followers/ids.json?cursor=-1&screen_name=milk_please&callback=setTwitterLikes";
-        videosJs = document.createElement('script');
-        videosJs.setAttribute('type', 'text/javascript');
-        videosJs.setAttribute('src', videosUrl);
-        head.appendChild(videosJs);
-        /**
-         * Recupero likes of Facebook
-         * @type {Node}
-         */
-        var videosUrl ="https://api.facebook.com/method/fql.query?query=select%20total_count,like_count%20from%20link_stat%20where%20url='http://www.facebook.com/milkplees'&format=json&callback=setFacebookLikes";
-        var videosJs = document.createElement('script');
-        videosJs.setAttribute('type', 'text/javascript');
-        videosJs.setAttribute('src', videosUrl);
-        head.appendChild(videosJs);
+    <title>Milkplease</title>
+    <link href="public/css/milkstyle.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="public/js/json.js"></script>
+    <script type="text/javascript">
+        function loadLikes() {
+            /**
+             * Alternativa FUNZIONANTE per Facebook's Likes.
+             * @type {*}
+             */
+            /** var json = getLikeFacebook();
+             var facebookData = JSON.parse(json);
+             document.getElementById("like_facebook").innerHTML =  facebookData[0].like_count+" <img src='index_file/img/ico_like.png' />";
+             */
 
 
-        /**
-         * Recupero likes of Vimeo
-         * @type {Node}
-         */
-        videosUrl ="https://vimeo.com/api/v2/video/39701901.json?callback=setVimeoLikes";
-        videosJs = document.createElement('script');
-        videosJs.setAttribute('type', 'text/javascript');
-        videosJs.setAttribute('src', videosUrl);
-        head.appendChild(videosJs);
-        setVimeoLikes({"likes":"4"})
+            /**
+             * Alternativa non funzionante, vimeo non accetta la request da 127.0.0.1 e da repository.no-ip.org
+             *
+             var json = getLikeVimeo();
+             var vimeoData = JSON.parse(json);
+             document.getElementById("like_vimeo").innerHTML =  vimeoData[0].stats_number_of_likes;
+             **/
+            var head = document.getElementsByTagName('head').item(0);
+
+            /**
+             * Recupero likes of Twitter
+             * @type {Node}
+             */
+            videosUrl = "https://api.twitter.com/1/followers/ids.json?cursor=-1&screen_name=milk_please&callback=setTwitterLikes";
+            videosJs = document.createElement('script');
+            videosJs.setAttribute('type', 'text/javascript');
+            videosJs.setAttribute('src', videosUrl);
+            head.appendChild(videosJs);
+            /**
+             * Recupero likes of Facebook
+             * @type {Node}
+             */
+            var videosUrl = "https://api.facebook.com/method/fql.query?query=select%20total_count,like_count%20from%20link_stat%20where%20url='http://www.facebook.com/milkplees'&format=json&callback=setFacebookLikes";
+            var videosJs = document.createElement('script');
+            videosJs.setAttribute('type', 'text/javascript');
+            videosJs.setAttribute('src', videosUrl);
+            head.appendChild(videosJs);
 
 
+            /**
+             * Recupero likes of Vimeo
+             * @type {Node}
+             */
+            videosUrl = "https://vimeo.com/api/v2/video/39701901.json?callback=setVimeoLikes";
+            videosJs = document.createElement('script');
+            videosJs.setAttribute('type', 'text/javascript');
+            videosJs.setAttribute('src', videosUrl);
+            head.appendChild(videosJs);
+            setVimeoLikes({"likes":"4"})
 
-	}
 
-    function setTwitterLikes(followers)
-    {
-        document.getElementById("like_twitter").innerHTML =  followers.ids.length;
-    }
-    function setVimeoLikes(info)
-    {
-        document.getElementById("like_vimeo").innerHTML =  info[0].stats_number_of_likes;
-    }
+        }
 
-    function setFacebookLikes(info)
-    {
-        document.getElementById("like_facebook").innerHTML =  info[0].like_count;
-    }
+        function setTwitterLikes(followers) {
+            document.getElementById("like_twitter").innerHTML = followers.ids.length;
+        }
+        function setVimeoLikes(info) {
+            document.getElementById("like_vimeo").innerHTML = info[0].stats_number_of_likes;
+        }
 
-	</script>
+        function setFacebookLikes(info) {
+            document.getElementById("like_facebook").innerHTML = info[0].like_count;
+        }
+
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <!-- TODO  sistema menu a scroll -->
-	<script type="text/javascript">
-        $(document).ready(function(){
+    <style>
+        .floatingHeader {
+            position: fixed;
+            top: 0;
+            visibility: visible;
+            background: rgba(0, 0, 0, 0.5)
 
-            $('#test').click(function(){
-                var el = $(this).attr('href');
-                var elWrapped = $(el);
+        }
+    </style>
+    <script>
+        function UpdateTableHeaders() {
+            $(".persist-area").each(function () {
 
-                scrollToDiv(elWrapped,40);
+                var el = $(this),
+                        offset = el.offset(),
+                        scrollTop = $(window).scrollTop(),
+                        floatingHeader = $(".floatingHeader", this)
 
-                return false;
+
+            });
+        }
+
+        // DOM Ready
+        $(function () {
+
+            var clonedHeaderRow;
+
+            $(".persist-area").each(function () {
+                clonedHeaderRow = $(".persist-header", this);
+                clonedHeaderRow
+                    //.before(clonedHeaderRow.clone())
+                        .css("width", clonedHeaderRow.width())
+                        .addClass("floatingHeader");
+
             });
 
-            function scrollToDiv(element,navheight){
-                var offset = element.offset();
-                var offsetTop = offset.top;
-                var totalScroll = offsetTop-navheight;
+            $(window)
+                    .scroll(UpdateTableHeaders)
+                    .trigger("scroll");
 
-                $('body,html').animate({
-                    scrollTop: totalScroll
-                }, 500);
-            }
         });
-	</script>
+    </script>
 </head>
 
 <body class="body" onLoad="loadLikes()">
+<table class="persist-area" height="110" cellpadding="30" width="100%">
 
-<!--INIZIO MENU-->
-
-    <div id="areamenu">
-        <!--
-        1-C'è da mettere in javascript la funzione dell'hover Sostituisci alle 3 immagini al
-        passaggio del mouse stessonomepulsante +"_pressato".png
-        spero hai capito usa la stessa stringa di due righe che c'era prima che ho preso dal web NON ANDARTI A COMPLICARE LA VITA
-        2-OVVIAMENTE C'è DA COLLEGARE I TASTI
-
-        -->
-        <!--
-        <a href="#cosaoffre" ><img src="public/img/pulsanti_menu/cosa-offre.png" /></a><br>
-        <a href="#comefunziona"><img src="public/img/pulsanti_menu/comefunziona.png"/></a><br>
-        <a id="test" href="#percheconviene"> cacca</a><img src="public/img/pulsanti_menu/percheconviene.png" />
-
-        -->
-    </div>
-<!--FINE MENU-->
-<center>
-    <table width="1000"   cellpadding="0" cellspacing="0">
-         <tr>
-             <td>
-                    <!-- Inizio HEADER-->
-                    <table id="areasocial" cellspacing="20" border="0">
-                        <tr>
-                            <td>
-                                <p class="payoff" > Fatti portare la spesa a casa, dalla community!
-                                    <a href="#" >Join Us</a>
-                                </p>
-
-                            </td>
+    <thead class="persist-header">
 
 
+    <th><p class="payoff">Let's take shooping at your door step!</p>
+    </th>
+    <th>
+        <h2><a href="#">Register</a></h2>
+    </th>
+    <th>
+        <img src="public/img/icosociale/twi.png"/>
 
-                            <td>
-                                <img src="public/img/icosociale/twi.png"/>
-                                <div id="like_twitter" class="likes">
-                                </div>
-                            </td>
+        <div id="like_twitter" class="likes">
+        </div>
+    </th>
 
-                            <td>
-                                <img src="public/img/icosociale/facebook.png" />
-                                <div id="like_facebook" class="likes">
-                                </div>
-                            </td>
+    <th>
+        <img src="public/img/icosociale/facebook.png"/>
 
-                            <td>
-                                <img src="public/img/icosociale/vimeo.png"/>
-                                <div id="like_vimeo" class="likes">
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                    <img src="public/img/header.png" width="1000" height="200">
+        <div id="like_facebook" class="likes">
+        </div>
+    </th>
 
-             </td>
-         </tr>
-       <!--FINE HEADER-->
+    <th>
+        <img src="public/img/icosociale/vimeo.png"/>
+
+        <div id="like_vimeo" class="likes">
+        </div>
+    </th>
+    </thead>
+
+</table>
+<div class="content">
+    <table class="persist-area" cellpadding="0" cellspacing="0">
+
+        <tbody width="1500">
+        <tr>
+            <td>
+                <!-- Inizio HEADER-->
+                <img src="public/img/header.png" width="1500">
+
+            </td>
+        </tr>
+        <!--FINE HEADER-->
         <tr>
             <td>
 
                 <!--Inizio BODY-->
-                <table width="1000" bgcolor="#FFFFFF">
+                <table width="1500" bgcolor="#FFFFFF">
                     <tr>
                         <td>
                             <!--Inizio Pagina1-->
                             <p id="cosaoffre"></p>
-                            <table width="900" height="400" align="center" cellpadding="30" >
+                            <table width="1500" height="400" align="center" cellpadding="100">
                                 <tr valign="top">
-                                    <td width="50%" align="center" valign="top" >
+                                    <td width="70%" align="center" valign="top">
                                         <center>
-                                            <p class="titolooffriamo"> Cosa Offriamo?<br></p>
-                                            <p class="testo">Ti è mai capitato di renderti conto di avere bisogno di qualcosa in casa, ma di non avere né tempo né modo di raggiungere il supermercato? Con Milk, please! puoi farti portare a casa velocemente ciò di cui hai bisogno e guadagnare facendo piccole consegne.<br>
-                                                Milk, please! è un servizio accessibile da web, smartphone e da speciali postazioni nei supermercati. È possibile inviare una richiesta agli altri utenti nella zona che possono accettare ed eseguire la consegna.</p>
+                                            <p class="titolooffriamo">What is it?<br></p>
+
+                                            <p class="testo">Have you ever been in trouble because of something missing
+                                                at home, and realizing that you don't have neither time nor a way to get
+                                                to a grocery? <br><br> Then with Milkplease you can ask to get quickly
+                                                the shop at home or scrape up some money making small deliveries.
+                                                <br><br> Milkplease is accessible via web and mobile where you can send
+                                                a request to other users in the same area, where they can deliver your
+                                                shop.</p>
                                         </center>
                                     </td>
 
-                                    <td width="50%">
-                                        <iframe  src="http://player.vimeo.com/video/39701901?portrait=0" width="500" height="400" frameborder="20"  webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                                    <td width="30%">
+                                        <iframe src="http://player.vimeo.com/video/39701901?portrait=0" width="500"
+                                                height="400" frameborder="20" webkitAllowFullScreen mozallowfullscreen
+                                                allowFullScreen></iframe>
                                     </td>
                                 </tr>
-                            </table><br>
+                            </table>
+                            <br>
 
 
                             <!--Inizio Pagina2-->
 
                             <p id="comefunziona"></p>
-                            <table width="900" align="center" >
+                            <table width="900" align="center">
 
                                 <tr>
 
-                                    <td width="900" >
-                                        <p class="titolofunziona"> Come Funziona?<br>
+                                    <td width="900">
+                                        <p class="titolofunziona">How does it work?<br>
                                         </p>
-                                        <img src="public/img/vignetta.png" />
+                                        <img src="public/img/vignetta.png"/>
                                     </td>
 
                                 </tr>
                             </table>
 
-                            <table width="900" align="center" cellpadding="10" >
+                            <table width="900" align="center" cellpadding="10">
 
                                 <tr valign="top">
                                     <td width="300"><p align="center" class="titolovignette">
-                                        <p class="testobig"> Oops! manca qualcosa in frigo...</p>
-                                        <p align="center" class="testo"> Hai il tempo contato e proprio non puoi (o non vuoi) andare al supermercato. Invii la richiesta con Milk,Please!</p>
+
+                                        <p class="testobig"> Oops! Something missing in the fridge...</p>
+
+                                        <p align="center" class="testo">Have short time and you cannot go shopping.
+                                            Let's try Milkplease!</p>
                                     </td>
 
                                     <td width="300"><p align="center" class="titolovignette">
-                                        <p class="testobig">Nel Frattempo al supermercato...</p>
-                                        <p align="center" class="testo"> Qualcuno sta facendo acquisti, visualizza la tua richiesta: la trova accettabile ed effettua l'acquisto per te!</p>
+
+                                        <p class="testobig">Meanwhile at the grocery...</p>
+
+                                        <p align="center" class="testo"> Someone is doing her own shop and see the
+                                            request. She finds it not a big deal and she decides to take care of
+                                            it. </p>
                                     </td>
 
                                     <td width="300"><p align="center" class="titolovignette">
-                                        <p class="testobig">Non ti resta che aspettare...</p>
-                                        <p align="center" class="testo"> La spesa ti arriva direttamente a casa, mentre il sistema gestisce il pagamento online preoccupandosi di compensare chi effettua la consegna.</p>
+
+                                        <p class="testobig">It's just matter of time...</p>
+
+                                        <p align="center" class="testo">The shopping arrives at your door step,
+                                            meanwhile Milkplease sends the money back to the delivery man with an extra
+                                            compensation.</p>
                                     </td>
                                 </tr>
                             </table>
@@ -230,54 +249,66 @@
                             <!--Inizio Pagina3-->
 
                             <p id="percheconviene"></p>
-                            <table width="900" border="0" cellpadding="30" align="left" >
+                            <table width="900" border="0" cellpadding="30" align="left">
                                 <tr>
                                     <td>
-                                        <p class="titolofunziona"> Perchè Conviene?
-                                        <p class="testoconviene"> Milk,please è un Servizio che avvantaggia tutti!</p>
+                                        <p class="titolofunziona"> Why is it convenient?
+
+                                        <p class="testoconviene"> Milkplease advanteges everyone!</p>
                                     </td>
                                 </tr>
                             </table>
 
-                            <table width="900" border="0" align="center" >
+                            <table width="900" border="0" align="center">
 
                                 <tr>
                                     <td width="50px">
-                                        <img align="left" src="public/img/vignette/punto_1.png" />
+                                        <img align="left" src="public/img/vignette/punto_1.png"/>
                                     </td>
 
                                     <td valign="middle">
-                                        <p class="testo_elenco"> Ne beneficia economicamente chi effettua la consegna;</p>
+                                        <p class="testo_elenco">The delivery man scrapes up some money</p>
                                     </td>
                                 </tr>
 
-                                <tr >
+                                <tr>
                                     <td width="50px">
-                                        <img align="left" src="public/img/vignette/punto_2.png" />
+                                        <img align="left" src="public/img/vignette/punto_2.png"/>
                                     </td>
 
                                     <td valign="middle">
-                                        <p class="testo_elenco">  Ne trae vantaggio il supermercato che offre un servizio innovativo e aumenta le vendite;</p>
+                                        <p class="testo_elenco">Groceries have an innovative delivery service without
+                                            any cost</p>
                                     </td>
                                 </tr>
-                                <tr >
+                                <tr>
                                     <td width="50px">
-                                        <img align="left" src="public/img/vignette/punto_3.png" />
+                                        <img align="left" src="public/img/vignette/punto_3.png"/>
                                     </td>
 
                                     <td valign="middle">
-                                        <p class="testo_elenco">  Valorizza il tuo tempo lasciandoti libero di scegliere come impegnarlo, e in più risparmi carburante!;</p>
+                                        <p class="testo_elenco">Enhance the value of your time, freeing you to decide
+                                            how to spend it. Moreover saving gas cost for your auto</p>
                                     </td>
                                 </tr>
-                                <tr >
+                                <tr>
                                     <td width="50px">
-                                        <img align="left" src="public/img/vignette/punto_4.png" />
+                                        <img align="left" src="public/img/vignette/punto_4.png"/>
                                     </td>
 
                                     <td valign="middle">
-                                        <p class="testo_elenco">   E soprattutto ne beneficia il nostro ambiente che vede ridursi al minimo gli effetti dovuti a spostamenti non necessari!;</p>
+                                        <p class="testo_elenco">Most of all the environment takes advantage of less
+                                            pollution caused by unnecessary traffic</p>
                                     </td>
+
                                 </tr>
+                                <td width="50px">
+                                    <img align="left" src="public/img/vignette/punto_4.png"/>
+                                </td>
+                                <td valign="middle">
+                                    <p class="testo_elenco">Last but not least Milkplease is a good way to get in touch
+                                        with new people, pheraps living at your same hinterland and never met before</p>
+                                </td>
 
                             </table>
                             <br><br>
@@ -290,30 +321,31 @@
 
         </tr>
 
-       <tr>
-        <td>
-            <!--Inizio FOOTER-->
-                <img src="public/img/footer.png" width="1000" >
+        <tr>
+            <td>
+                <!--Inizio FOOTER-->
+                <img calss="footer" src="public/img/footer.png" width="1500">
 
-            <center>
-               <!-- Area Sponsor -->
-                <img src="public/img/areasponsor.png" width="1000" ><br>
+
+                <!-- Area Sponsor -->
+                <img src="public/img/areasponsor.png" width="1500"><br>
 
                 <a class="testoinfo">
-                    Se desideri avere maggiori informazioni riguardanti questo servizio, scrivi a:<br>
+                    If you decide to have more info about this app, write at:<br>
                     <a href="mailto:hello@milkplease.it">hello@milkplease.it
                     </a>
                 </a>
-            <br>
-                <a class="testoinfo">Copyright © 2012 . Milk, Please. Tutti i diritti riservati.<br>
+                <br>
+                <a class="testoinfo">Milkplease © 2013.<br>
                 </a>
-            <br>
-            </center>
-            <!--FINE FOOTER-->
-        </td>
-      </tr>
-    </table>
+                <br>
 
-</center>
+                <!--FINE FOOTER-->
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
 </body>
 </html>
