@@ -59,7 +59,7 @@ a:link {
 	height:90px;
 	width:650px;
 	}
-	
+
 #areamenu {
 	position:fixed;
 	float:left;
@@ -202,10 +202,11 @@ a:link {
 	}
 
     .likes{
-        line-height: 10px;
+        line-height: 20px;
         text-align: center;
         font-family: "pacificoregular",serif;
         font-size:15px;
+
     }
 
 
