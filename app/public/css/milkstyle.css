@@ -163,6 +163,14 @@ a:hover {
     margin-left: 40px;
 }
 
+#vimeoframe{
+    background: url('../img/vimeo.png') no-repeat;
+    overflow: hidden;
+    width: 400px;
+    height: 442px;
+    padding: 22px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
 .testobig {
     text-align: center;
 
