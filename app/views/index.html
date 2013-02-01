@@ -1,35 +1,139 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Milkplease</title>
+    <meta name="description" content="Let's take shooping at your door step!">
+    <meta name="author" content="Carmine Giardino">
+
+    <!-- fb-->
+    <meta property="og:title" content="Milkplease">
+    <meta property="og:description" content="Let's take shooping at your door step!">
+    <meta property="og:image" content="http://www.milk-please.com/public/img/logo_small.png">
+    <meta property="og:url" content="http://www.milk-please.com">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Milkplease">
+    <meta property="fb:admins" content="525510878">
+    <!-- /fb-->
+
+    <!-- +1 snippet-->
+    <meta itemprop="name" content="Milkplease!">
+    <meta itemprop="description" content="Let's take shooping at your door step!">
+    <meta itemprop="image" content="http://www.milk-please.com/public/img/logo_small.png">
+    <!-- +1 end-->
+
+    <meta name="viewport" content="width=device-width">
+
     <link href="public/css/milkstyle.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="public/js/json.js"></script>
     <script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
     <script type="text/javascript">
-        var ss={fixAllLinks:function(){var b=document.getElementsByTagName("a");for(var a=0;a<b.length;a++){var c=b[a];if((c.href&&c.href.indexOf("#")!=-1)&&((c.pathname==location.pathname)||("/"+c.pathname==location.pathname))&&(c.search==location.search)){ss.addEvent(c,"click",ss.smoothScroll)}}},smoothScroll:function(h){if(window.event){target=window.event.srcElement}else{if(h){target=h.target}else{return}}if(target.nodeName.toLowerCase()!="a"){target=target.parentNode}if(target.nodeName.toLowerCase()!="a"){return}anchor=target.hash.substr(1);var g=document.getElementsByTagName("a");var a=null;for(var f=0;f<g.length;f++){var j=g[f];if(j.name&&(j.name==anchor)){a=j;break}}if(!a){a=document.getElementById(anchor)}if(!a){return true}var c=a.offsetLeft;var b=a.offsetTop;var d=a;while(d.offsetParent&&(d.offsetParent!=document.body)){d=d.offsetParent;c+=d.offsetLeft;b+=d.offsetTop}clearInterval(ss.INTERVAL);cypos=ss.getCurrentYPos();ss_stepsize=parseInt((b-cypos)/ss.STEPS);ss.INTERVAL=setInterval("ss.scrollWindow("+ss_stepsize+","+b+',"'+anchor+'")',10);if(window.event){window.event.cancelBubble=true;window.event.returnValue=false}if(h&&h.preventDefault&&h.stopPropagation){h.preventDefault();h.stopPropagation()}},scrollWindow:function(a,c,b){wascypos=ss.getCurrentYPos();isAbove=(wascypos<c);window.scrollTo(0,wascypos+a);iscypos=ss.getCurrentYPos();isAboveNow=(iscypos<c);if((isAbove!=isAboveNow)||(wascypos==iscypos)){window.scrollTo(0,c);clearInterval(ss.INTERVAL);location.hash=b}},getCurrentYPos:function(){if(document.body&&document.body.scrollTop){return document.body.scrollTop}if(document.documentElement&&document.documentElement.scrollTop){return document.documentElement.scrollTop}if(window.pageYOffset){return window.pageYOffset}return 0},addEvent:function(e,d,b,a){if(e.addEventListener){e.addEventListener(d,b,a);return true}else{if(e.attachEvent){var c=e.attachEvent("on"+d,b);return c}else{alert("Handler could not be removed")}}}};ss.STEPS=25;ss.addEvent(window,"load",ss.fixAllLinks);
+
+
+        var ss = {fixAllLinks:function () {
+            var b = document.getElementsByTagName("a");
+            for (var a = 0; a < b.length; a++) {
+                var c = b[a];
+                if ((c.href && c.href.indexOf("#") != -1) && ((c.pathname == location.pathname) || ("/" + c.pathname == location.pathname)) && (c.search == location.search)) {
+                    ss.addEvent(c, "click", ss.smoothScroll)
+                }
+            }
+        }, smoothScroll:function (h) {
+            if (window.event) {
+                target = window.event.srcElement
+            } else {
+                if (h) {
+                    target = h.target
+                } else {
+                    return
+                }
+            }
+            if (target.nodeName.toLowerCase() != "a") {
+                target = target.parentNode
+            }
+            if (target.nodeName.toLowerCase() != "a") {
+                return
+            }
+            anchor = target.hash.substr(1);
+            var g = document.getElementsByTagName("a");
+            var a = null;
+            for (var f = 0; f < g.length; f++) {
+                var j = g[f];
+                if (j.name && (j.name == anchor)) {
+                    a = j;
+                    break
+                }
+            }
+            if (!a) {
+                a = document.getElementById(anchor)
+            }
+            if (!a) {
+                return true
+            }
+            var c = a.offsetLeft;
+            var b = a.offsetTop;
+            var d = a;
+            while (d.offsetParent && (d.offsetParent != document.body)) {
+                d = d.offsetParent;
+                c += d.offsetLeft;
+                b += d.offsetTop
+            }
+            clearInterval(ss.INTERVAL);
+            cypos = ss.getCurrentYPos();
+            ss_stepsize = parseInt((b - cypos) / ss.STEPS);
+            ss.INTERVAL = setInterval("ss.scrollWindow(" + ss_stepsize + "," + b + ',"' + anchor + '")', 10);
+            if (window.event) {
+                window.event.cancelBubble = true;
+                window.event.returnValue = false
+            }
+            if (h && h.preventDefault && h.stopPropagation) {
+                h.preventDefault();
+                h.stopPropagation()
+            }
+        }, scrollWindow:function (a, c, b) {
+            wascypos = ss.getCurrentYPos();
+            isAbove = (wascypos < c);
+            window.scrollTo(0, wascypos + a);
+            iscypos = ss.getCurrentYPos();
+            isAboveNow = (iscypos < c);
+            if ((isAbove != isAboveNow) || (wascypos == iscypos)) {
+                window.scrollTo(0, c);
+                clearInterval(ss.INTERVAL);
+                location.hash = b
+            }
+        }, getCurrentYPos:function () {
+            if (document.body && document.body.scrollTop) {
+                return document.body.scrollTop
+            }
+            if (document.documentElement && document.documentElement.scrollTop) {
+                return document.documentElement.scrollTop
+            }
+            if (window.pageYOffset) {
+                return window.pageYOffset
+            }
+            return 0
+        }, addEvent:function (e, d, b, a) {
+            if (e.addEventListener) {
+                e.addEventListener(d, b, a);
+                return true
+            } else {
+                if (e.attachEvent) {
+                    var c = e.attachEvent("on" + d, b);
+                    return c
+                } else {
+                    alert("Handler could not be removed")
+                }
+            }
+        }};
+        ss.STEPS = 25;
+        ss.addEvent(window, "load", ss.fixAllLinks);
     </script>
 
 
     <script type="text/javascript">
         function loadLikes() {
-            /**
-             * Alternativa FUNZIONANTE per Facebook's Likes.
-             * @type {*}
-             */
-            /** var json = getLikeFacebook();
-             var facebookData = JSON.parse(json);
-             document.getElementById("like_facebook").innerHTML =  facebookData[0].like_count+" <img src='index_file/img/ico_like.png' />";
-             */
 
-
-            /**
-             * Alternativa non funzionante, vimeo non accetta la request da 127.0.0.1 e da repository.no-ip.org
-             *
-             var json = getLikeVimeo();
-             var vimeoData = JSON.parse(json);
-             document.getElementById("like_vimeo").innerHTML =  vimeoData[0].stats_number_of_likes;
-             **/
             var head = document.getElementsByTagName('head').item(0);
 
             /**
@@ -61,7 +165,7 @@
             videosJs.setAttribute('type', 'text/javascript');
             videosJs.setAttribute('src', videosUrl);
             head.appendChild(videosJs);
-            setVimeoLikes({"likes":"4"})
+            setVimeoLikes({"likes":"4"});
 
 
         }
@@ -86,6 +190,7 @@
             top: 0;
             visibility: visible;
             background: rgba(0, 0, 0, 0.5);
+
         }
     </style>
     <script>
@@ -104,7 +209,6 @@
 
         // DOM Ready
         $(function () {
-
 
 
             var clonedHeaderRow;
@@ -141,7 +245,7 @@
 <body class="body" onLoad="loadLikes()">
 <table class="persist-area" height="110" align="center" cellpadding="30" width="100%">
 
-    <thead class="persist-header" align="center" >
+    <thead class="persist-header" align="center" style="height: 110px">
 
     <th>
         <h2><a href="#why" class="scroll">Why</a></h2>
@@ -153,7 +257,7 @@
         <h2><a href="#what">What</a></h2>
     </th>
 
-    <th><p class="payoff" style="min-width: 300px">Let's take shooping at your door step!</p>
+    <th><p style="min-width: 30px"></p>
     </th>
 
     <th>
@@ -161,14 +265,16 @@
     </th>
 
     <th>
-        <a href="https://twitter.com/intent/user?screen_name=milk_please"><img src="public/img/icosociale/twi.png" alt ="Follow milkplease" /></a>
+        <a href="https://twitter.com/intent/user?screen_name=milk_please"><img src="public/img/icosociale/twi.png"
+                                                                               alt="Follow milkplease"/></a>
 
         <div id="like_twitter" class="likes">
         </div>
     </th>
 
     <th>
-        <a href="//www.facebook.com/plugins/like.php?href=https://www.facebook.com/milkplees?fref=ts&layout=standard&show_faces=true&width=450&action=like&colorscheme=light&height=80"><img src="public/img/icosociale/facebook.png" border="0" /></a>
+        <a href="//www.facebook.com/plugins/like.php?href=https://www.facebook.com/milkplees?fref=ts&layout=standard&show_faces=true&width=450&action=like&colorscheme=light&height=80"><img
+                src="public/img/icosociale/facebook.png" border="0"/></a>
 
 
         <div id="like_facebook" class="likes">
@@ -176,7 +282,8 @@
     </th>
 
     <th>
-        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.milk-please.com&media=http%3A%2F%2Fwww.milk-please.com%2Fpublic%2Fimg%2Flogo.png&description=Let's%20take%20shopping%20at%20your%20doorstep" count-layout="horizontal"><img border="0" src="public/img/icosociale/pinit.png" title="Pin It" /></a>
+        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.milk-please.com&media=http%3A%2F%2Fwww.milk-please.com%2Fpublic%2Fimg%2Flogo.png&description=Let's%20take%20shopping%20at%20your%20doorstep"
+           count-layout="horizontal"><img border="0" src="public/img/icosociale/pinit.png" title="Pin It"/></a>
 
         <div id="like_pinterest" class="likes">
         </div>
@@ -194,204 +301,210 @@
 
 </table>
 <div class="content">
-    <table class="persist-area" cellpadding="0" cellspacing="0" width="100%">
+<p id="why"></p>
+<table class="persist-area" cellpadding="0" cellspacing="0" width="100%">
 
-        <tbody>
-        <tr>
-            <td>
-                <!-- Inizio HEADER-->
-                <img src="public/img/header.png" width="100%">
+    <tbody>
+    <tr>
+        <td>
+            <!-- Inizio HEADER-->
+            <img src="public/img/header.png" width="100%">
 
-            </td>
-        </tr>
-        <!--FINE HEADER-->
-        <tr>
-            <td>
+        </td>
 
-                <!--Inizio BODY-->
-                <table width="100%" bgcolor="#FFFFFF">
-                    <tr>
-                        <td>
-                            <!--Inizio Pagina1-->
-                            <p id="why"></p>
-                            <table width="100%" height="400" align="center" cellpadding="100">
-                                <tr valign="top">
-                                    <td width="70%" align="center" valign="top" style="min-width: 300px">
-                                        <center>
-                                            <p class="titolooffriamo">What is it?<br></p>
+    </tr>
 
-                                            <p class="testo">Have you ever been in trouble because of something missing
-                                                at home, and realizing that you don't have neither time nor a way to get
-                                                to a grocery? <br><br> Then with Milkplease you can ask to get quickly
-                                                the shop at home or scrape up some money making small deliveries.
-                                                <br><br> Milkplease is accessible via web and mobile where you can send
-                                                a request to other users in the same area, where they can deliver your
-                                                shop.</p>
-                                        </center>
-                                    </td>
+    <!--FINE HEADER-->
+    <tr>
+        <td>
 
-                                    <td width="30%">
-                                        <iframe src="http://player.vimeo.com/video/39701901?portrait=0" width="500"
-                                                height="400" frameborder="20" webkitAllowFullScreen mozallowfullscreen
-                                                allowFullScreen></iframe>
-                                    </td>
-                                </tr>
-                            </table>
-                            <br>
+            <!--Inizio BODY-->
+            <table width="100%" bgcolor="#FFFFFF">
+                <tr>
+                    <td >
+                        <!--Inizio Pagina1-->
+
+                        <table  width="90%" height="400"  cellpadding="10" align="center">
+                            <tr align="center">
+                                <td style="min-width: 400px" >
+                                    <center>
+                                        <p class="titolooffriamo">Milkplease, a fast way for helping in daily shopping and scrape up some money<br></p>
+
+                                        <p class="testo">Have you ever been in trouble because of something missing
+                                            at home, and realizing that you don't have neither time nor a way to get
+                                            to a grocery? <br><br> Then with Milkplease you can ask to get quickly
+                                            the shop at home or scrape up some money making small deliveries.
+                                            <br><br> Milkplease is accessible via web and mobile where you can send
+                                            a request to other users in the same area, where they can deliver your
+                                            shop.</p>
+                                    </center>
+                                </td>
 
 
-                            <!--Inizio Pagina2-->
-
-                            <p id="how"></p>
-                            <table width="900" align="center">
-
-                                <tr>
-
-                                    <td width="900">
-                                        <p class="titolofunziona">How does it work?<br>
-                                        </p>
-                                        <img src="public/img/vignetta.png"/>
-                                    </td>
-
-                                </tr>
-                            </table>
-
-                            <table width="900" align="center" cellpadding="10">
-
-                                <tr valign="top">
-                                    <td width="300"><p align="center" class="titolovignette">
-
-                                        <p class="testobig"> Oops! Something missing in the fridge...</p>
-
-                                        <p align="center" class="testo">Have short time and you cannot go shopping.
-                                            Let's try Milkplease!</p>
-                                    </td>
-
-                                    <td width="300"><p align="center" class="titolovignette">
-
-                                        <p class="testobig">Meanwhile at the grocery...</p>
-
-                                        <p align="center" class="testo"> Someone is doing her own shop and see the
-                                            request. She finds it not a big deal and she decides to take care of
-                                            it. </p>
-                                    </td>
-
-                                    <td width="300"><p align="center" class="titolovignette">
-
-                                        <p class="testobig">It's just matter of time...</p>
-
-                                        <p align="center" class="testo">The shopping arrives at your door step,
-                                            meanwhile Milkplease sends the money back to the delivery man with an extra
-                                            compensation.</p>
-                                    </td>
-                                </tr>
-                            </table>
-
-                            <!--Inizio Pagina3-->
+                            </tr>
+                            <tr align="center" id="vimeoPlayer" >
+                                <td width="50%">
+                                    <iframe src="http://player.vimeo.com/video/39701901?portrait=0" width="500"
+                                            height="400" frameborder="20" webkitAllowFullScreen mozallowfullscreen
+                                            allowFullScreen></iframe>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
 
 
-                            <table border="0" cellpadding="30" align="center">
-                                <tr>
-                                    <td>
-                                        <p class="titolofunziona"> <a id="what" > Why is it convenient? </a></p>
+                        <!--Inizio Pagina2-->
 
-                                        <p class="testoconviene"> Milkplease advanteges everyone!</p>
-                                    </td>
-                                </tr>
-                            </table>
+                        <p id="how"></p>
+                        <table style="margin-top: 100px"  width="900" align="center">
 
-                            <table align="center">
+                            <tr>
 
-                                <tr>
-                                    <td width="50px">
-                                        <img src="public/img/vignette/punto_1.png"/>
-                                    </td>
+                                <td width="900">
+                                    <p class="titolofunziona"><br>
+                                    </p>
+                                    <img src="public/img/vignetta.png"/>
+                                </td>
 
-                                    <td valign="middle">
-                                        <p class="testo_elenco">The delivery man scrapes up some money</p>
-                                    </td>
-                                </tr>
+                            </tr>
+                        </table>
 
-                                <tr>
-                                    <td width="50px">
-                                        <img src="public/img/vignette/punto_2.png"/>
-                                    </td>
+                        <table width="900" align="center" cellpadding="10">
 
-                                    <td valign="middle">
-                                        <p class="testo_elenco">Groceries have an innovative delivery service without
-                                            any cost</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="50px">
-                                        <img src="public/img/vignette/punto_3.png"/>
-                                    </td>
+                            <tr valign="top">
+                                <td width="300"><p align="center" class="titolovignette">
 
-                                    <td valign="middle">
-                                        <p class="testo_elenco">Enhance the value of your time, freeing you to decide
-                                            how to spend it. Moreover saving gas cost for your auto</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td width="50px">
-                                        <img src="public/img/vignette/punto_4.png"/>
-                                    </td>
+                                    <p class="testobig"> Oops! Something missing in the fridge...</p>
 
-                                    <td valign="middle">
-                                        <p class="testo_elenco">Most of all the environment takes advantage of less
-                                            pollution caused by unnecessary traffic</p>
-                                    </td>
+                                    <p align="center" class="testo">Have short time and you cannot go shopping.
+                                        Let's try Milkplease!</p>
+                                </td>
 
-                                </tr>
+                                <td width="300"><p align="center" class="titolovignette">
+
+                                    <p class="testobig">Meanwhile at the grocery...</p>
+
+                                    <p align="center" class="testo"> Someone is doing her own shop and see the
+                                        request. She finds it not a big deal and she decides to take care of
+                                        it. </p>
+                                </td>
+
+                                <td width="300"><p align="center" class="titolovignette">
+
+                                    <p class="testobig">It's just matter of time...</p>
+
+                                    <p align="center" class="testo">The shopping arrives at your door step,
+                                        meanwhile Milkplease sends the money back to the delivery man with an extra
+                                        compensation.</p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!--Inizio Pagina3-->
+
+                        <p id="what"></p>
+                        <table  style="margin-top: 200px;" border="0" cellpadding="10" align="center">
+                            <tr >
+                                <td s>
+                                    <p class="titolofunziona"></p>
+
+                                    <p class="testoconviene"> Everyone takes advantage!</p><br/>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <table align="center">
+
+                            <tr>
+                                <td width="50px">
+                                    <img src="public/img/vignette/punto_1.png"/>
+                                </td>
+
+                                <td valign="middle">
+                                    <p class="testo_elenco">The delivery man scrapes up some money</p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="50px">
+                                    <img src="public/img/vignette/punto_2.png"/>
+                                </td>
+
+                                <td valign="middle">
+                                    <p class="testo_elenco">Groceries have an innovative delivery service without
+                                        any cost</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50px">
+                                    <img src="public/img/vignette/punto_3.png"/>
+                                </td>
+
+                                <td valign="middle">
+                                    <p class="testo_elenco">Enhance the value of your time, freeing you to decide
+                                        how to spend it. Moreover saving gas cost for your auto</p>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td width="50px">
                                     <img src="public/img/vignette/punto_4.png"/>
                                 </td>
+
                                 <td valign="middle">
-                                    <p class="testo_elenco">Last but not least Milkplease is a good way to get in touch
-                                        with new people, pheraps living at your same hinterland and never met before</p>
+                                    <p class="testo_elenco">Most of all the environment takes advantage of less
+                                        pollution caused by unnecessary traffic</p>
                                 </td>
 
-                            </table>
-                            <br><br>
-                        </td>
-                    </tr>
+                            </tr>
+                            <td width="50px">
+                                <img src="public/img/vignette/punto_4.png"/>
+                            </td>
+                            <td valign="middle">
+                                <p class="testo_elenco">Last but not least Milkplease is a good way to get in touch
+                                    with new people, pheraps living at your same hinterland and never met before</p>
+                            </td>
 
-                </table>
-                <!-- Fine BODY -->
-            </td>
-
-        </tr>
-
-        <tr>
-            <table>
-                <tr>
-
-                    <!--Inizio FOOTER-->
-                    <img calss="footer" src="public/img/footer.png" width="100%">
+                        </table>
+                        <br><br>
+                    </td>
                 </tr>
-
-                <!-- Area Sponsor -->
-                <tr>
-                    <img src="public/img/areasponsor.png" width="100%"><br>
-                </tr>
-                <tr>
-                    <a class="testoinfo">
-                        If you decide to have more info about this app, write at:
-                        <a href="mailto:hello@milkplease.it">hello@milkplease.it
-                        </a>
-                    </a><br>
-
-                    <a class="testoinfo">Milkplease © 2013.<br>
-                    </a>
-
-                </tr>
-
-                <!--FINE FOOTER-->
 
             </table>
-        </tr>
-        </tbody>
-    </table>
+            <!-- Fine BODY -->
+        </td>
+
+    </tr>
+
+    <tr>
+        <table>
+            <tr>
+
+                <!--Inizio FOOTER-->
+                <img calss="footer" src="public/img/footer.png" width="100%">
+            </tr>
+
+            <!-- Area Sponsor -->
+            <tr>
+                <img src="public/img/areasponsor.png" width="100%"><br>
+            </tr>
+            <tr>
+                <a class="testoinfo">
+                    If you decide to have more info about this app, write at:
+                    <a href="mailto:hello@milkplease.it">hello@milkplease.it
+                    </a>
+                </a><br>
+
+                <a class="testoinfo">Milkplease © 2013.<br>
+                </a>
+
+            </tr>
+
+            <!--FINE FOOTER-->
+
+        </table>
+    </tr>
+    </tbody>
+</table>
 </div>
 
 </body>
