@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/css/milkstyle.css" afterPath="$PROJECT_DIR$/app/public/css/milkstyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
     </list>
     <ignored path="milkplease.iws" />
@@ -27,8 +26,13 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="395" column="108" selection-start="15123" selection-end="15123" vertical-scroll-proportion="0.70670825">
+            <state line="44" column="37" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.63182527">
               <folding>
+                <element signature="e#5850#5938#0" expanded="true" />
+                <element signature="e#6294#6383#0" expanded="true" />
+                <element signature="e#6824#6910#0" expanded="true" />
+                <element signature="n#style#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#th#3;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#3;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -577,8 +581,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="395" column="108" selection-start="15123" selection-end="15123" vertical-scroll-proportion="0.70670825">
+        <state line="44" column="37" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.63182527">
           <folding>
+            <element signature="e#5850#5938#0" expanded="true" />
+            <element signature="e#6294#6383#0" expanded="true" />
+            <element signature="e#6824#6910#0" expanded="true" />
+            <element signature="n#style#0;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#th#3;n#thead#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#3;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
