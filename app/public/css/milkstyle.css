@@ -207,5 +207,12 @@ a:hover {
     min-height: 20px;
 
 }
+.areafissa {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.areafissa.testo {
+    padding-top: 20px;
+}
 
 
