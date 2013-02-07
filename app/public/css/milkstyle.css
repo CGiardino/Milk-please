@@ -209,10 +209,13 @@ a:hover {
 }
 .areafissa {
     padding-top: 5px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 .areafissa.testo {
     padding-top: 20px;
+    padding-bottom: 0px;
 }
+
+
 
 

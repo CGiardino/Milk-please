@@ -206,6 +206,7 @@
             visibility: visible;
             background: rgba(0, 0, 0, 0.5);
 
+
         }
     </style>
     <script>
@@ -243,6 +244,7 @@
                 clonedHeaderRow
                     //.before(clonedHeaderRow.clone())
                         .css("width", "100%")
+                        .css("height", $("thead.persist-area").height())
 
 
             }));
@@ -258,17 +260,17 @@
 </head>
 
 <body class="body" onLoad="loadLikes()">
-<table class="persist-area" height="100" align="center" cellpadding="30" width="100%">
+<table class="persist-area"  align="center" cellpadding="30" width="100%">
 
-    <thead class="persist-header" align="center" style="height: 75px">
+    <thead class="persist-header" align="center">
         <th class="areafissa testo">
-            <h2><a href="#why" class="scroll" style="min-width: 100px">Shop at home</a></h2>
+            <h2><a href="#why" class="scroll" >Shop at home</a></h2>
         </th>
         <th class="areafissa testo">
-            <h2><a href="#how" class="scroll" style="min-width: 100px">How it works</a></h2>
+            <h2><a href="#how" class="scroll">How it works</a></h2>
         </th>
         <th class="areafissa testo">
-            <h2><a href="#what" class="scroll" style="min-width: 100px">What the advantage</a></h2>
+            <h2><a href="#what" class="scroll">What the advantage</a></h2>
         </th>
 
         <th class="areafissa testo">
