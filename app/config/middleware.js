@@ -17,7 +17,7 @@ module.exports = function addMiddleware(app) {
   app.use(express.limit('5mb'));
   
   //Favicon
-  app.use(express.favicon(path.join(app.get('appDir'), 'public' , 'favicon.png')));
+  app.use(express.favicon(path.join(app.get('appDir'), 'public/img/favicon' , 'favicon.png')));
   
   //Logger
   app.use(express.logger({format: 'dev'}));
