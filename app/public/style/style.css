@@ -1287,7 +1287,7 @@ a.contact:before {
     display: inline-block;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-image: url('img/social_icons.png');
+
     background-position: center center;
     opacity: .5
 }
@@ -1419,7 +1419,7 @@ a.email:before {
     }
 
     header, .home header {
-        background: #259ccc url('img/doodle.gif') no-repeat center -80px;
+        background: #6ACFF6 no-repeat center -80px;
         padding-top: 40px
     }
 
