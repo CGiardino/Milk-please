@@ -20,7 +20,7 @@ module.exports = function configure(app) {
   app.set('port', process.env.PORT || 3000);
 
   //Default controller, to be called on '/' requests
-  app.set('defaultController', 'alpha/index');
+  app.set('defaultController', 'index');
 
   //Default template engine
   app.set('engine', 'ejs');
