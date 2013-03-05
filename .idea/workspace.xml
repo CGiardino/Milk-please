@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
     </list>
     <ignored path="milkplease.iws" />
@@ -26,10 +25,10 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="56" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.3326087">
+            <state line="19" column="39" selection-start="762" selection-end="768" vertical-scroll-proportion="0.3326087">
               <folding>
-                <marker date="1362449638000" expanded="true" signature="1970:2203" placeholder="..." />
-                <marker date="1362449638000" expanded="true" signature="2038:2076" placeholder="..." />
+                <marker date="1362450277000" expanded="true" signature="1974:2207" placeholder="..." />
+                <marker date="1362450277000" expanded="true" signature="2042:2080" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -534,8 +533,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="0" selection-start="2718" selection-end="2718" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1362449638000" expanded="true" signature="1970:2203" placeholder="..." />
-            <marker date="1362449638000" expanded="true" signature="2038:2076" placeholder="..." />
+            <marker date="1362450277000" expanded="true" signature="1974:2207" placeholder="..." />
+            <marker date="1362450277000" expanded="true" signature="2042:2080" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -596,10 +595,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="56" selection-start="2423" selection-end="2423" vertical-scroll-proportion="0.3326087">
+        <state line="19" column="39" selection-start="762" selection-end="768" vertical-scroll-proportion="0.3326087">
           <folding>
-            <marker date="1362449638000" expanded="true" signature="1970:2203" placeholder="..." />
-            <marker date="1362449638000" expanded="true" signature="2038:2076" placeholder="..." />
+            <marker date="1362450277000" expanded="true" signature="1974:2207" placeholder="..." />
+            <marker date="1362450277000" expanded="true" signature="2042:2080" placeholder="..." />
           </folding>
         </state>
       </provider>
