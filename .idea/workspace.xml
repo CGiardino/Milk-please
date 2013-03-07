@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="$PROJECT_DIR$/app/views/index.html" />
-    </list>
+    <list default="true" id="aa7b0cc4-b3a9-4dca-9547-61e61e700e2e" name="Default" comment="" />
     <ignored path="milkplease.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +23,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="762" selection-end="768" vertical-scroll-proportion="0.3326087">
+            <state line="27" column="34" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.59347826">
               <folding>
                 <marker date="1362450277000" expanded="true" signature="1974:2207" placeholder="..." />
                 <marker date="1362450277000" expanded="true" signature="2042:2080" placeholder="..." />
@@ -296,7 +294,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Preproduction" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -595,7 +593,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="762" selection-end="768" vertical-scroll-proportion="0.3326087">
+        <state line="27" column="34" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.59347826">
           <folding>
             <marker date="1362450277000" expanded="true" signature="1974:2207" placeholder="..." />
             <marker date="1362450277000" expanded="true" signature="2042:2080" placeholder="..." />
